@@ -1,8 +1,16 @@
 FROM sagemath/sagemath:latest
 
-# Install pip and Voilà
+# Switch to root to install packages
+USER root
+
+# Update the system and install pip
 RUN apt-get update && apt-get install -y python3-pip
+
+# Install Voilà
 RUN pip3 install voila
+
+# Switch back to the default user
+USER sage
 
 # Expose the port for Voilà
 EXPOSE 8866
