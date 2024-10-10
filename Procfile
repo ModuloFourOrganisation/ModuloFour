@@ -1,5 +1,4 @@
-web: voila --port=$PORT --no-browser c3voila.ipynb
-
+web: gunicorn voila --port $PORT --no-browser
 
 
 
