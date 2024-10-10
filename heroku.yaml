@@ -1,6 +1,0 @@
-build:
-  docker:
-    web: Dockerfile # This assumes you have a Dockerfile in your project root
-
-run:
-  web: your-start-command-here # Replace with the command to run your app
