@@ -1,4 +1,7 @@
+#!/bin/bash
 # Install SageMath kernel
 sage -python -m sage.repl.ipython_kernel.install
 # Trust the notebook
 jupyter trust c3voila.ipynb
+# Check available kernels (for debugging purposes)
+jupyter kernelspec list
