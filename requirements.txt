@@ -1,4 +1,0 @@
-voila
-notebook
-sagemath
-ipywidgets
