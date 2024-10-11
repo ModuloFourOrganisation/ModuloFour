@@ -1,1 +1,3 @@
+#!/bin/bash
+# Install SageMath IPython kernel
 sage -python -m sage.repl.ipython_kernel.install
