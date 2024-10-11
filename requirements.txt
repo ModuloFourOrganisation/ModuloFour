@@ -1,3 +1,4 @@
 voila
 notebook
 sagemath
+ipywidgets
