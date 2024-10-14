@@ -1,8 +1,7 @@
 voila
 notebook
-sagemath==10.4
 numpy
 ipywidgets
 ipykernel
-sagemath-jupyter-kernel
+
 
